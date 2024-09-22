@@ -98,3 +98,27 @@ b =>
 },{timestramp: true})
 3. export const User = new mongoose.model("for what","on what basis")
 Ex: export const User = new mongoose.model("User","userSchema")
+
+
+// git file/folder pushing optimization
+to push any empty folder on git, we need to create a file inside that folder named '.gitkeep'
+to make new files using commands, use this syntax:
+       cd fn; dir; New-Item fileN
+
+
+// Project Setup
+1. first create package.json file
+2. add git repository
+3. create index.js file
+4. install nodemon(for server updation)
+5. then modify package.json file(addtype,script(dev))
+
+
+
+** In js, importing is done in two ways: modules(import) and common.js(require)
+
+** We use Nodemon to stop the method of stop/starting of server again and again
+syntax: 1.npm i -D nodemon
+        2.And change scripts(dev:nodemon filepath(src/index.js))
+
+** Difference b/w main dependency and dev dependency is that it(dev) use in development not in production
