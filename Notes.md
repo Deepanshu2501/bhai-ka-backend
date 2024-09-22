@@ -101,9 +101,10 @@ Ex: export const User = new mongoose.model("User","userSchema")
 
 
 // git file/folder pushing optimization
-to push any empty folder on git, we need to create a file inside that folder named '.gitkeep'
-to make new files using commands, use this syntax:
-       cd fn; dir; New-Item fileN
+1.to push any empty folder on git, we need to create a file inside that folder named '.gitkeep'
+2.to make new files using commands, use  this syntax:
+       cd fn; dir; New-Item fileName
+3. to create folder: mkdir folderName
 
 
 // Project Setup
